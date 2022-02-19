@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background: url(./assests/Sea\ -\ 6399.mp4);
+  background-size: cover; */
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-size: 80px;
+  border: 1px solid #ccc;
+  padding: 0px 5px 0px 5px;
+  box-shadow: 10px black;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* .video-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100vh;
+  height: auto;
+} */
